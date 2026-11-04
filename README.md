@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Aurelia Care — Medical & Family Clinic Showcase
 
-# Run and deploy your AI Studio app
+A responsive, modern healthcare clinic showcase website built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, and **Motion**.
 
-This contains everything you need to run your app locally.
+> **Disclaimer:** This project is a portfolio & testimonial section design demonstration and does not represent a real medical clinic or healthcare provider.
 
-View your app in AI Studio: https://ai.studio/apps/9f71e84f-d4e0-4474-94b3-0b09c29e8f10
+## Deploying to Vercel
 
-## Run Locally
+This repository is pre-configured for zero-friction deployment on **Vercel** (`vercel.json` included):
 
-**Prerequisites:**  Node.js
+### Option 1: Deploy via GitHub / Git Integration
+1. Push this project to a GitHub, GitLab, or Bitbucket repository.
+2. Import the repository at [vercel.com/new](https://vercel.com/new).
+3. Vercel automatically detects `vercel.json` (`Framework: Vite`, `Build Command: npm run build`, `Output Directory: dist`).
+4. Click **Deploy** — no environment variables are required for this static showcase.
 
+### Option 2: Deploy via Vercel CLI
+```bash
+npm i -g vercel
+vercel --prod
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
