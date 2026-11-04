@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Aurelia Care – Family Medicine, Dental &amp; Emergency Clinic</title>
+    <meta
+      name="description"
+      content="Book same-day primary care, certified dental treatments, vaccinations, and 24/7 emergency medical services with Aurelia Care specialists."
+    />
+    <meta
+      name="keywords"
+      content="Aurelia Care, medical clinic, family medicine, primary care, dental service, vaccination, diagnostic services, 24/7 emergency clinic, preventive health packages"
+    />
+    <meta name="author" content="Aurelia Care Medical Group" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0F766E" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Aurelia Care" />
+
+    <!-- Favicons & Apple Touch Icon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aurelia Care" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Aurelia Care – Family Medicine, Dental &amp; Emergency Clinic" />
+    <meta
+      property="og:description"
+      content="Book same-day primary care, certified dental treatments, vaccinations, and 24/7 emergency medical services with Aurelia Care specialists."
+    />
+    <meta property="og:image" content="/assets/medkit/cura-doctor-male.jpg" />
+    <meta property="og:image:alt" content="Aurelia Care Specialist Medical Clinic" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aurelia Care – Family Medicine, Dental &amp; Emergency Clinic" />
+    <meta
+      name="twitter:description"
+      content="Book same-day primary care, certified dental treatments, vaccinations, and 24/7 emergency medical services with Aurelia Care specialists."
+    />
+    <meta name="twitter:image" content="/assets/medkit/cura-doctor-male.jpg" />
+
+    <!-- Schema.org Structured Data (MedicalClinic + FAQPage) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "MedicalClinic",
+            "name": "Aurelia Care",
+            "description": "Multi-specialty medical showcase clinic offering primary care, dental services, vaccinations, diagnostic imaging, and 24/7 emergency care.",
+            "medicalSpecialty": [
+              "PrimaryCare",
+              "Dentistry",
+              "Emergency",
+              "DiagnosticLab"
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "06:00",
+                "closes": "22:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday", "Sunday"],
+                "opens": "06:00",
+                "closes": "20:00"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do I need an appointment for Primary Care or Lab Diagnostics?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Walk-in patients are welcome daily from 6:00 AM, while online appointments guarantee priority consultation times with zero waiting room delay."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Emergency & Ambulance Dispatch available 24 hours?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our Accident & Emergency unit and mobile physician response team operate 24 hours a day, 7 days a week."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-[#0F172A] antialiased selection:bg-[#0D9488]/15 selection:text-[#0F766E] overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

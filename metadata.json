@@ -1,0 +1,6 @@
+{
+  "name": "MedKit - Health & Medical Clinic",
+  "description": "Comprehensive healthcare and medical clinic website offering primary care, dental services, vaccinations, diagnostics, and 24-hour emergency support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
